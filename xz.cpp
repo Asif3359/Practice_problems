@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int t; // number of test cases
+    int t; 
     cin >> t;
 
     while (t--)
@@ -12,9 +12,9 @@ int main()
         int n;
         cin >> n;
 
-        int x = 0;                // initial position of the dot
-        bool sakurakoTurn = true; // to keep track of turns
-        int move = 1;             // start with the first move
+        int x = 0;                
+        bool sakurakoTurn = true; 
+        int move = 1;             
 
         while (true)
         {
